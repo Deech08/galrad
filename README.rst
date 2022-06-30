@@ -17,7 +17,7 @@ Way as well as for the Magellanic Clouds.
 An extragalactic background field can also be included. 
 
 For use with Cloudy, you will need to point your cloudy input file to the radiation 
-field file () as well as the normalization (photon flux provided by this package). 
+field file (found in galrad/data/MW.0kpc.dat) as well as the normalization (photon flux provided by this package). 
 We recommend including an extragalactic background independently through built in 
 Cloudy framework. 
 
