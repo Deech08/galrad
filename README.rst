@@ -5,6 +5,21 @@ Milky Way Radiation Field and Ionization Photon Flux Tool
     :target: http://www.astropy.org
     :alt: Powered by Astropy Badge
 
+This package is meant to provide an easy way to estimate the Ionizing photon flux 
+around the CGM environment of Milky Way, including contributions from the 
+Magellanic Clouds. In the future this will include an updated radiation field 
+field model, but for now provides a simple photon flux calculation based on 
+models from Barger et al. (2013) ,Bland-Hawthorn et al. (2019), 
+Antwi-Danso et al. (2020). The radiation field SED available for now is from 
+Fox et al. (2005), which is assumed to be the radiaiton field shape for the Milky 
+Way as well as for the Magellanic Clouds. 
+
+An extragalactic background field can also be included. 
+
+For use with Cloudy, you will need to point your cloudy input file to the radiation 
+field file () as well as the normalization (photon flux provided by this package). 
+We recommend including an extragalactic background independently through built in 
+Cloudy framework. 
 
 License
 -------
