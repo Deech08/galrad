@@ -21,6 +21,17 @@ field file () as well as the normalization (photon flux provided by this package
 We recommend including an extragalactic background independently through built in 
 Cloudy framework. 
 
+
+You can install the package using the following command:
+
+    pip install -q git+https://github.com/Deech08/galrad.git
+
+For a quickstart example see the following `Google Colab Notebook <https://colab.research.google.com/drive/1PXw585xXJJIY836WkVHHtCHXUVRAJRI3?usp=sharing>`_
+
+
+
+
+
 License
 -------
 
